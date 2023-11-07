@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-image: url("https://img.freepik.com/premium-photo/cement-floor-wall-backgrounds-dark-room-interior_34552-235.jpg?w=360");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+/* form selector*/
+form {
+  background-color: rgba(27, 77, 70, 0.575);
+  padding: 30px 30px;
+  border: 2px solid red;
+  margin: 5px 20%;
+  color: aliceblue;
+  font-weight: bold;
+  border: 2px solid rgb(27, 77, 70);
+}
+
+/* Css for heading */
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+/* Css for <p> with id #description */
+#description {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for labels with class info */
+.info {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for Inputs with class input1*/
+.input1 {
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  border: 2px solid white;
+}
+
+/* Css for <p> with id #experience */
+#experience {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for radio buttons */
+.radioBtn {
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+/* Css for <p> with id #careerPath */
+#careerPath {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for dropdown */
+#dropdown {
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* Css for <p> with id #language */
+#language {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for input type checkbox with id #language */
+.input2 {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Css for <p> with id #comments */
+#comments {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Css for textarea */
+textarea {
+  border: 2px solid white;
+  resize: none;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Css for submit btn */
+#submit {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+#submit:hover {
+  background-color: rgb(108, 184, 93);
+}

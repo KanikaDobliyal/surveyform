@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey-form.css" />
+  </head>
+  <body>
+    <!-- Heading of the page -->
+    <h1 id="title">My Survey Form</h1>
+    <!-- first para -->
+    <p id="description">Let's start the survey....</p>
+
+    <!-- form field -->
+    <form
+      method="post"
+      action="https://survey-form.freecodecamp.rocks"
+      id="survey-form"
+    >
+      <!-- Input fields for name, email, age -->
+      <label class="info" id="name-label">Name: </label><br />
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Enter your name"
+        class="input1"
+        autocomplete="on"
+        required
+      /><br />
+      <label class="info" id="email-label">Email: </label><br />
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        class="input1"
+        autocomplete="on"
+        required
+      /><br />
+      <label class="info" id="number-label">Age: </label><br />
+      <input
+        id="number"
+        type="number"
+        name="age"
+        min="10"
+        max="180"
+        class="input1"
+        placeholder="Age"
+        autocomplete="on"
+      />
+
+      <!-- Input fields for radio buttons -->
+      <p id="experience">What is your experience level in coding?</p>
+
+      <label for="beginner"
+        ><input
+          id="beginner"
+          type="radio"
+          name="experience level"
+          value="Beginner"
+          class="radioBtn"
+        />
+        Beginner</label
+      ><br />
+      <label for="intermediate"
+        ><input
+          id="intermediate"
+          type="radio"
+          name="experience level"
+          value="Intermediate"
+          class="radioBtn"
+        />
+        Intermediate</label
+      ><br />
+      <label for="advanced"
+        ><input
+          id="advanced"
+          type="radio"
+          name="experience level"
+          value="Advanced"
+          class="radioBtn"
+        />
+        Advanced</label
+      >
+
+      <!-- Using dropdown -->
+      <p id="careerPath">Choose your career path.</p>
+      <select id="dropdown">
+        <option id="first">Select</option>
+        <option id="second">Front-end development</option>
+        <option id="third">Back-end development</option>
+        <option id="fourth">Fullstack development</option>
+        <option id="fifth">Other</option>
+      </select>
+
+      <!-- checkboxes -->
+      <p id="language">
+        Choose all necessary language to become a front-end developer.
+      </p>
+
+      <label for="language1"
+        ><input
+          type="checkbox"
+          id="language1"
+          name="language1"
+          value="HTML"
+          class="input2"
+        />
+        HTML</label
+      ><br />
+
+      <label for="language2"
+        ><input
+          type="checkbox"
+          id="language2"
+          name="language2"
+          value="CSS"
+          class="input2"
+        />
+        CSS</label
+      ><br />
+
+      <label for="language3"
+        ><input
+          type="checkbox"
+          id="language3"
+          name="language3"
+          value="JavaScript"
+          class="input2"
+        />
+        JavaScript</label
+      ><br />
+
+      <label for="language4"
+        ><input
+          type="checkbox"
+          id="language4"
+          name="language4"
+          value="English"
+          class="input2"
+        />
+        English</label
+      >
+
+      <!-- textarea field -->
+      <p id="comments">Any comments or suggestions?</p>
+
+      <textarea
+        placeholder="Enter your comment here...."
+        rows="6"
+        cols="50"
+        id="textarea"
+      ></textarea
+      ><br />
+
+      <!-- Submit button -->
+      <input id="submit" type="Submit" value="Submit" class="submit" />
+
+      <!-- Ending of form tag -->
+    </form>
+  </body>
+</html>
